@@ -1,0 +1,16 @@
+mode=$(yad  --list --width 800 --height 800 --title "CPU MICROCORE" --text "selectyourcpu" --column "CPU" \
+"INTEL" \
+"AMD"
+)
+
+case $mode in 
+
+"INTEL"*) ~/.local/share/layouts/.tweaks/microcore/intel.twek
+~.local/share/layouts/.tweaks/microcore.twek
+;;
+
+"AMD"*) ~/.local/share/layouts/.tweaks/microcore/amd_microcode.twek
+~.local/share/layouts/.tweaks/microcore.twek
+;;
+
+esac

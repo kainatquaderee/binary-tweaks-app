@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=binary-os-yellow
+Comment=An Materia Gtk+ theme based on Elegant Design
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=binary-os-yellow
+MetacityTheme=binary-os-yellow
+IconTheme=binary-os
+CursorTheme=binary-os
+ButtonLayout=close,minimize,maximize:menu

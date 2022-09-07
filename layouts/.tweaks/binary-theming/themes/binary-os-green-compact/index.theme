@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=binary-os-green-compact
+Comment=An Materia Gtk+ theme based on Elegant Design
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=binary-os-green-compact
+MetacityTheme=binary-os-green-compact
+IconTheme=binary-os
+CursorTheme=binary-os
+ButtonLayout=close,minimize,maximize:menu

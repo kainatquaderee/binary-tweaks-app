@@ -1,0 +1,40 @@
+#!/bin/bash
+
+mode=$(yad  --list --width 800 --height 800 --title "binary-tweaks" --column "tweaks" \
+"layouts" \
+"shell themes" \
+"vpn_setup" \
+"cpu microcore setup" \
+"panel settings" \
+"theming" \
+"setup-for" \
+"advance tweaks" 
+)
+
+case $mode in 
+"layouts"*) ~/.local/share/layouts/.tweaks/binary_layouts.twek
+~/.local/share/layouts/binary-tweaks.tweks
+;;
+"advance tweaks"*) gnome-tweaks
+~/.local/share/layouts/binary-tweaks.tweks
+;;
+"shell themes"*) ~/.local/share/layouts/.tweaks/shellthemes.twek
+~/.local/share/layouts/binary-tweaks.tweks
+;;
+"vpn_setup"*) ~/.local/share/layouts/.tweaks/vpn_setup/setup_vpn.twek
+~/.local/share/layouts/binary-tweaks.tweks
+;;
+"cpu microcore setup"*) ~/.local/share/layouts/.tweaks/microcore.twek
+~/.local/share/layouts/binary-tweaks.tweks
+;;
+"theming"*) ~/.local/share/layouts/.tweaks/binary-theming/themes.sh
+~/.local/share/layouts/binary-tweaks.tweks
+;;
+"setup-for"*) /usr/libexec/gos/setup/setup-for.sh
+~/.local/share/layouts/binary-tweaks.tweks
+;;
+"panel settings"*) gnome-shell-extension-prefs dash-to-panel@jderose9.github.com
+~/.local/share/layouts/binary-tweaks.tweks
+;;
+
+esac

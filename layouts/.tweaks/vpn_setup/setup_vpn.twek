@@ -1,0 +1,8 @@
+#!/bin/bash
+password="$(yad --center --width=300 --image=keys.png --entry --hide-text --button=gtk-ok:0 --button=gtk-cancel:1 --title="Authentication required" --text="Enter password:")"
+echo $password | sudo -S apt install ~/.local/share/layouts/.tweaks/vpn_setup/cloudflare_warp_2022_5_346_1_amd64_afbf7aeea3.deb -y
+warp-cli register
+warp-cli set-mode warp+doh
+cp -r ~/.local/share/layouts/.tweaks/vpn_setup/cloudflare@adam.gadmz/ $HOME/.local/share/gnome-shell/extensions/
+yad --info --width=500 --height=200 --image=/etc/skel/.local/share/layouts/.tweaks/vpn_setup/view.png \
+ --text "please logout and login then press the cloud button in the panel"

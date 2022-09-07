@@ -1,0 +1,2 @@
+#!/bin/bash
+dconf write /org/gnome/shell/extensions/user-theme/name "'binary-shell-dark'"

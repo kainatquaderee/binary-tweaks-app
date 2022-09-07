@@ -1,0 +1,27 @@
+#!/bin/bash
+
+mode=$(yad  --form --width 800 --height 800 --title "accent-color" --columns=5 \
+ --field=./.icons/color/blue.png:BTN gsettings set org.gnome.desktop.interface gtk-theme "Binary-round-Light"
+)
+
+case $mode in 
+"layouts"*) ~/.local/share/layouts/.tweaks/binary_layouts.twek
+~/.local/share/layouts/binary-tweaks.tweks
+;;
+"advance tweaks"*) gnome-tweaks
+~/.local/share/layouts/binary-tweaks.tweks
+;;
+"shell themes"*) ~/.local/share/layouts/.tweaks/shellthemes.twek
+~/.local/share/layouts/binary-tweaks.tweks
+;;
+"vpn_setup"*) ~/.local/share/layouts/.tweaks/vpn_setup/setup_vpn.twek
+~/.local/share/layouts/binary-tweaks.tweks
+;;
+"cpu microcore setup"*) ~/.local/share/layouts/.tweaks/microcore.twek
+~/.local/share/layouts/binary-tweaks.tweks
+;;
+"panel settings"*) gnome-shell-extension-prefs dash-to-panel@jderose9.github.com
+~/.local/share/layouts/binary-tweaks.tweks
+;;
+
+esac

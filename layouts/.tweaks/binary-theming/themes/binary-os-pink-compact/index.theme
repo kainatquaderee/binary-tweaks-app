@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=binary-os-pink-compact
+Comment=An Materia Gtk+ theme based on Elegant Design
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=binary-os-pink-compact
+MetacityTheme=binary-os-pink-compact
+IconTheme=binary-os
+CursorTheme=binary-os
+ButtonLayout=close,minimize,maximize:menu

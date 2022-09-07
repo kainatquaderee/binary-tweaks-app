@@ -1,0 +1,15 @@
+#!/bin/bash
+
+mode=$(yad  --list --width 800 --height 800 --title "shell-themes" --column "tweaks" \
+"Darkmode" \
+"Lightmode" 
+)
+
+case $mode in 
+"Darkmode"*) ~/.local/share/layouts/.tweaks/shellthemes/dark.twek
+~/.local/share/layouts/.tweaks/shellthemes.twek
+;;
+"Lightmode"*) ~/.local/share/layouts/.tweaks/shellthemes/light.twek
+~/.local/share/layouts/.tweaks/shellthemes.twek
+;;
+esac

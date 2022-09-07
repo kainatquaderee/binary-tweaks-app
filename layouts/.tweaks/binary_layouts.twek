@@ -1,0 +1,37 @@
+#!/bin/bash
+declare -a layout=" "
+
+selectlayout=$(yad --list --width 800 --height 800 --title "binary-layout-manager" --text "select a layout" --column "layout" --column=view:IMG \
+"default layout" ~/.local/share/layouts/.icons/default.png \
+"11 type layout" ~/.local/share/layouts/.icons/11.png \
+"10 type layout" ~/.local/share/layouts/.icons/windows-layout-symbolic.svg \
+"mc type layout" ~/.local/share/layouts/.icons/macos.png \
+"popos type layout" ~/.local/share/layouts/.icons/pop.png 
+ )
+ 
+ 
+ case $selectlayout in 
+ 
+  "11 type layout"*) dconf load /org/gnome/shell/ < ~/.local/share/layouts/.configs/11-layout.dconf 
+  yad --info --width=500 --height=200 --title "binary-layout-manager" --text "Layout applied successfully.\nIf you are experiencing any issues, please logout and login."
+  ~/.local/share/layouts/.tweaks/binary_layouts.twek
+  ;;
+   "10 type layout"*) dconf load /org/gnome/shell/ < ~/.local/share/layouts/.configs/10-layout.dconf 
+   yad --info --width=500 --height=200 --title "binary-layout-manager" --text "Layout applied successfully.\nIf you are experiencing any issues, please logout and login."
+   ~/.local/share/layouts/.tweaks/binary_layouts.twek
+   ;;
+"default layout"*)
+dconf load /org/gnome/shell/ < ~/.local/share/layouts/.configs/default-layout.dconf 
+  yad --info --width=500 --height=200 --title "binary-layout-manager" --text "Layout applied successfully.\nIf you are experiencing any issues, please logout and login."
+ ~/.local/share/layouts/.tweaks/binary_layouts.twek
+  ;;
+   "mc type layout"*) dconf load /org/gnome/shell/ < ~/.local/share/layouts/.configs/mcos.dconf 
+   yad --info --width=500 --height=200 --title "binary-layout-manager" --text "Layout applied successfully.\nIf you are experiencing any issues, please logout and login."
+   ~/.local/share/layouts/.tweaks/binary_layouts.twek
+   ;;
+   "popos type layout"*) dconf load /org/gnome/shell/ < ~/.local/share/layouts/.configs/popos.dconf
+  yad --info --width=500 --height=200 --title "binary-layout-manager" --text "Layout applied successfully.\nIf you are experiencing any issues, please logout and login."
+  ~/.local/share/layouts/.tweaks/binary_layouts.twek
+  ;;
+
+esac

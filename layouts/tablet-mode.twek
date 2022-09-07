@@ -1,0 +1,16 @@
+#!/bin/bash
+source ~/.local/share/layouts/.configs/saves/on.sh
+case $tabletmode in
+"no"*)
+dconf dump /org/gnome/shell/ > ~/.local/share/layouts/.configs/saves/savedlayout.dconf
+dconf load /org/gnome/shell/ < ~/.local/share/layouts/.configs/tabletmod.dconf
+cp ~/.local/share/layouts/.tweaks/button-size/gtk.css ~/.config/gtk-3.0/
+nautilus -q
+cp ~/.local/share/layouts/.configs/yesorno/yes.sh  ~/.local/share/layouts/.configs/saves/on.sh
+;;
+"yes"*) dconf load /org/gnome/shell/ < ~/.local/share/layouts/.configs/saves/savedlayout.dconf
+rm .config/gtk-3.0/gtk.css
+nautilus -q
+cp ~/.local/share/layouts/.configs/yesorno/no.sh  ~/.local/share/layouts/.configs/saves/on.sh
+;;
+esac
