@@ -1,7 +1,7 @@
 [/]
 always-show-log-out=true
 app-picker-layout=[{'software-properties-drivers.desktop': <{'position': <0>}>, 'sol.desktop': <{'position': <1>}>, 'org.gnome.Calendar.desktop': <{'position': <2>}>, 'org.gnome.Extensions.desktop': <{'position': <3>}>, 'display-im6.q16.desktop': <{'position': <4>}>, 'org.gnome.Totem.desktop': <{'position': <5>}>, 'org.inkscape.Inkscape.desktop': <{'position': <6>}>, 'org.gnome.Calculator.desktop': <{'position': <7>}>, 'org.gnome.gedit.desktop': <{'position': <8>}>, 'gnome-language-selector.desktop': <{'position': <9>}>, 'simple-scan.desktop': <{'position': <10>}>, 'libreoffice-startcenter.desktop': <{'position': <11>}>, 'gnome-system-monitor.desktop': <{'position': <12>}>, 'libreoffice-calc.desktop': <{'position': <13>}>, 'org.gnome.Terminal.desktop': <{'position': <14>}>, 'Utilities': <{'position': <15>}>, 'libreoffice-draw.desktop': <{'position': <16>}>, 'libreoffice-impress.desktop': <{'position': <17>}>, 'libreoffice-math.desktop': <{'position': <18>}>, 'org.gnome.Cheese.desktop': <{'position': <19>}>, 'net.lutris.Lutris.desktop': <{'position': <20>}>, 'org.gnome.Mahjongg.desktop': <{'position': <21>}>, 'menulibre.desktop': <{'position': <22>}>, 'msedge-kannhcccjkpgibjakgogocodaejplbcn-Default.desktop': <{'position': <23>}>}, {'org.gnome.Mines.desktop': <{'position': <0>}>, 'nvidia-settings.desktop': <{'position': <1>}>, 'polychromatic.desktop': <{'position': <2>}>, 'org.gnome.PowerStats.desktop': <{'position': <3>}>, 'org.remmina.Remmina.desktop': <{'position': <4>}>, 'gnome-control-center.desktop': <{'position': <5>}>, 'shotwell.desktop': <{'position': <6>}>, 'software-properties-gtk.desktop': <{'position': <7>}>, 'update-manager.desktop': <{'position': <8>}>, 'spotify_spotify.desktop': <{'position': <9>}>, 'gnome-session-properties.desktop': <{'position': <10>}>, 'usb-creator-gtk.desktop': <{'position': <11>}>, 'steam.desktop': <{'position': <12>}>, 'org.gnome.Sudoku.desktop': <{'position': <13>}>, 'timeshift-gtk.desktop': <{'position': <14>}>, 'org.gnome.Todo.desktop': <{'position': <15>}>, 'transmission-gtk.desktop': <{'position': <16>}>, 'winetricks.desktop': <{'position': <17>}>, 'msedge-celnaknmndcdcjcagffhbhciignkeokb-Default.desktop': <{'position': <18>}>, 'snap-store_ubuntu-software.desktop': <{'position': <19>}>, 'ca.desrt.dconf-editor.desktop': <{'position': <20>}>, 'gimp_gimp.desktop': <{'position': <21>}>, 'yelp.desktop': <{'position': <22>}>, 'msedge-bemjfadelkmhfnobpmobeglhpeifebhp-Default.desktop': <{'position': <23>}>}, {'Proton EasyAntiCheat Runtime.desktop': <{'position': <0>}>, 'Proton Experimental.desktop': <{'position': <1>}>, 'snake-razer.desktop': <{'position': <2>}>, 'msedge-kkefjkaldhbfaoaifjmojodoophbngol-Default.desktop': <{'position': <3>}>, 'virtualbox.desktop': <{'position': <4>}>}]
-command-history=['e', 'gsettings set org.gtk.Settings.Debug enable-inspector-keybinding true', 'r\\', 't', 'hardinfo', 'R', 'er', 'r']
+command-history=['e', 'gsettings set org.gtk.Settings.Debug enable-inspector-keybinding true', 'r\\', 't', 'hardinfo', 'R', 'er', 'tr', 'r']
 development-tools=true
 disable-extension-version-validation=false
 disable-user-extensions=false
@@ -473,7 +473,7 @@ preview-size-scale=0.0
 require-pressure-to-show=true
 running-indicator-dominant-color=false
 running-indicator-style='DOTS'
-scroll-action='do-nothing'
+scroll-action='switch-workspace'
 scroll-switch-workspace=true
 scroll-to-focused-application=true
 shift-click-action='launch'
@@ -640,7 +640,7 @@ always-show-icon=true
 emit-notifications=false
 
 [extensions/gsconnect]
-devices=['70c83d373bc629cc']
+devices=@as []
 enabled=true
 id='bf727f6b-ac4b-45ec-9273-76aaacf33bed'
 name='Binary_OS'
