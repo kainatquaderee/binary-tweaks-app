@@ -6,6 +6,7 @@ selectlayout=$(yad --list --width 800 --height 800 --title "binary-layout-manage
 "11 type layout" ~/.local/share/layouts/.icons/11.png \
 "10 type layout" ~/.local/share/layouts/.icons/windows-layout-symbolic.svg \
 "mc type layout" ~/.local/share/layouts/.icons/macos.png \
+"gaming-dark-knight.dconf"~/.local/share/layouts/.icons/raven-layout-symbolic.svg
 "popos type layout" ~/.local/share/layouts/.icons/pop.png 
  )
  
@@ -26,6 +27,10 @@ dconf load /org/gnome/shell/ < ~/.local/share/layouts/.configs/default-layout.dc
  ~/.local/share/layouts/.tweaks/binary_layouts.twek
   ;;
    "mc type layout"*) dconf load /org/gnome/shell/ < ~/.local/share/layouts/.configs/mcos.dconf 
+   yad --info --width=500 --height=200 --title "binary-layout-manager" --text "Layout applied successfully.\nIf you are experiencing any issues, please logout and login."
+   ~/.local/share/layouts/.tweaks/binary_layouts.twek
+   ;;
+      "gaming-dark-knight.dconf"*) dconf load /org/gnome/shell/ < ~/.local/share/layouts/.configs/gaming-dark-knight.dconf 
    yad --info --width=500 --height=200 --title "binary-layout-manager" --text "Layout applied successfully.\nIf you are experiencing any issues, please logout and login."
    ~/.local/share/layouts/.tweaks/binary_layouts.twek
    ;;
