@@ -5,9 +5,8 @@ command-history=['e', 'gsettings set org.gtk.Settings.Debug enable-inspector-key
 development-tools=true
 disable-extension-version-validation=false
 disable-user-extensions=false
-disabled-extensions=['alt-mouse@eexpss.gmail.com', 'task-widget@juozasmiskinis.gitlab.io', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'poweroff-button-on-topbar@darknico.com', 'pop-launcher-super-key@ManeLippert', 'material-shell@papyelgringo', 'roundedSystemMenuButtons@pratap.fastmail.fm', 'network-stats@gnome.noroadsleft.xyz', 'color-picker@tuberry', 'bluetooth-quick-connect@bjarosze.gmail.com', 'bigSur-StatusArea@ordissimo.com', 'netspeedsimplified@prateekmedia.extension', 'sound-percentage@maestroschan.fr', 'transparent-top-bar@ftpix.com', 'unite@hardpixel.eu', 'mediacontrols@cliffniff.github.com', 'user-theme-x@tuberry.github.io', 'overview_cleaner@gonza.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'nightthemeswitcher@romainvigier.fr', 'window-list@gnome-shell-extensions.gcampax.github.com', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com', 'ubuntu-appindicators@ubuntu.com', 'trayIconsReloaded@selfmade.pl', 'date-menu-formatter@marcinjakubowski.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'blur-my-shell@aunetx', 'arcmenu@arcmenu.com', 'dash-to-panel@jderose9.github.com']
-enabled-extensions=['vertical-overview@RensAlthuis.github.com', 'asusctl-gex@asus-linux.org', 'ubuntu-dock@ubuntu.com', 'BringOutSubmenuOfPowerOffLogoutButton@pratap.fastmail.fm', 'ding@rastersoft.com', 'caffeine@patapon.info', 'openweather-extension@jenslody.de', 'gTile@vibou', 'tiling-assistant@leleat-on-github', 'gamemode@christian.kellner.me', 'just-perfection-desktop@just-perfection', 'sound-output-device-chooser@kgshank.net', 'gsconnect@andyholmes.github.io', 'cloudflare@adam.gadmz', 'Always-Show-Titles-In-Overview@gmail.com', 'clipboard-indicator@tudmotu.com', 'cpupower@mko-sl.de', 'impatience@gfxmonk.net', 'refresh-wifi@kgshank.net', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'favourites-in-appgrid@harshadgavali.gitlab.org', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'dash-to-dock-cosmic-@halfmexicanhalfamazing@gmail.com']
-favorite-apps=['org.gnome.Software.desktop', 'thunderbird.desktop', 'org.gnome.Nautilus.desktop', 'rhythmbox.desktop', 'binary-tweaks.desktop', 'google-chrome.desktop', 'chrome-hingjhnanmjgfcipbgbcocjnmcdjdohi-Default.desktop', 'org.kde.kdenlive.desktop', 'blender.desktop', 'org.gnome.Totem.desktop', 'vlc.desktop', 'libreoffice-startcenter.desktop', 'github-desktop.desktop', 'com.github.xournalpp.xournalpp.desktop', 'synaptic.desktop', 'tablet-mode.desktop']
+disabled-extensions=['alt-mouse@eexpss.gmail.com', 'task-widget@juozasmiskinis.gitlab.io', 'poweroff-button-on-topbar@darknico.com', 'pop-launcher-super-key@ManeLippert', 'material-shell@papyelgringo', 'roundedSystemMenuButtons@pratap.fastmail.fm', 'network-stats@gnome.noroadsleft.xyz', 'color-picker@tuberry', 'bluetooth-quick-connect@bjarosze.gmail.com', 'bigSur-StatusArea@ordissimo.com', 'netspeedsimplified@prateekmedia.extension', 'sound-percentage@maestroschan.fr', 'transparent-top-bar@ftpix.com', 'unite@hardpixel.eu', 'mediacontrols@cliffniff.github.com', 'user-theme-x@tuberry.github.io', 'overview_cleaner@gonza.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'nightthemeswitcher@romainvigier.fr', 'window-list@gnome-shell-extensions.gcampax.github.com', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com', 'ubuntu-appindicators@ubuntu.com', 'trayIconsReloaded@selfmade.pl', 'date-menu-formatter@marcinjakubowski.github.com', 'blur-my-shell@aunetx', 'dash-to-panel@jderose9.github.com', 'logomenu@aryan_k', 'arcmenu@arcmenu.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'AlphabeticalAppGrid@stuarthayhurst']
+enabled-extensions=['vertical-overview@RensAlthuis.github.com', 'asusctl-gex@asus-linux.org', 'ubuntu-dock@ubuntu.com', 'BringOutSubmenuOfPowerOffLogoutButton@pratap.fastmail.fm', 'ding@rastersoft.com', 'caffeine@patapon.info', 'openweather-extension@jenslody.de', 'gTile@vibou', 'tiling-assistant@leleat-on-github', 'gamemode@christian.kellner.me', 'just-perfection-desktop@just-perfection', 'sound-output-device-chooser@kgshank.net', 'gsconnect@andyholmes.github.io', 'cloudflare@adam.gadmz', 'Always-Show-Titles-In-Overview@gmail.com', 'clipboard-indicator@tudmotu.com', 'cpupower@mko-sl.de', 'impatience@gfxmonk.net', 'refresh-wifi@kgshank.net', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'favourites-in-appgrid@harshadgavali.gitlab.org', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'dash-to-dock-cosmic-@halfmexicanhalfamazing@gmail.com', 'places-menu@gnome-shell-extensions.gcampax.github.com']
 had-bluetooth-devices-setup=false
 looking-glass-history=@as []
 remember-mount-password=false
@@ -156,6 +155,18 @@ window-preview-use-custom-icon-size=true
 keep-arranged=true
 show-home=false
 
+[extensions/Logo-menu]
+hide-forcequit=true
+hide-softwarecentre=true
+menu-button-icon-click-type=2
+menu-button-icon-image=35
+show-lockorientation=true
+show-lockscreen=true
+show-power-options=true
+
+[extensions/alphabetical-app-grid]
+logging-enabled=false
+
 [extensions/always-show-titles-in-overview]
 app-icon-position='Bottom'
 show-app-icon=true
@@ -207,7 +218,7 @@ menu-item-active-bg-color='rgb(25,98,163)'
 menu-item-active-fg-color='rgb(255,255,255)'
 menu-item-hover-bg-color='rgb(21,83,158)'
 menu-item-hover-fg-color='rgb(255,255,255)'
-menu-layout='Runner'
+menu-layout='GnomeMenu'
 menu-position-alignment=50
 menu-separator-color='rgba(255,255,255,0.1)'
 menu-width-adjustment=0
@@ -215,8 +226,9 @@ mint-pinned-app-list=['Google Chrome', 'google-chrome', 'google-chrome.desktop',
 mint-separator-index=3
 multi-monitor=true
 override-menu-theme=false
-pinned-app-list=['Microsoft Edge', '', 'microsoft-edge.desktop', 'Files', '', 'org.gnome.Nautilus.desktop', 'Terminal', '', 'org.gnome.Terminal.desktop', 'ArcMenu Settings', 'ArcMenu_ArcMenuIcon', 'gnome-extensions prefs arcmenu@arcmenu.com']
-position-in-panel='Center'
+pinned-app-list=['Files', '', 'org.gnome.Nautilus.desktop', 'Terminal', '', 'org.gnome.Terminal.desktop', 'ArcMenu Settings', '/home/kainat/.local/share/gnome-shell/extensions/arcmenu@arcmenu.com/media/icons/menu_icons/arc-menu-symbolic.svg', 'gnome-extensions prefs arcmenu@arcmenu.com']
+plasma-enable-hover=false
+position-in-panel='Left'
 prefs-visible-page=0
 recently-installed-apps=['synapse.desktop', 'wine-Programs-DAZ 3D-DAZ Install Manager (64-bit)-Uninstall DAZ Install Manager (64-bit).desktop', 'remote-viewer.desktop', 'snap-store_ubuntu-software.desktop']
 right-panel-width=205
@@ -303,7 +315,7 @@ show-icon-in-taskbar=true
 taskbar-freq-unit-ghz=true
 
 [extensions/dash-to-dock-pop]
-apply-custom-theme=false
+apply-custom-theme=true
 background-color='rgb(246,97,81)'
 background-opacity=0.80000000000000004
 border-radius=24
@@ -331,7 +343,7 @@ running-indicator-style='DEFAULT'
 scroll-action='switch-workspace'
 show-apps-at-top=true
 show-mounts-network=false
-show-show-apps-button=false
+show-show-apps-button=true
 transparency-mode='DYNAMIC'
 workspace-agnostic-urgent-windows=true
 
