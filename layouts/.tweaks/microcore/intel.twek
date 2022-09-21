@@ -1,2 +1,3 @@
 #!/bin/bash
-sudo apt install intel-microcode iucode-tool
+export SUDO_ASKPASS="/usr/lib/zenity/ask-password.sh"
+sudo -A apt install intel-microcode iucode-tool
