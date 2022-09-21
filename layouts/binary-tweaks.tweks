@@ -1,7 +1,7 @@
 #!/bin/bash
 
-mode=$(yad  --list --width 800 --height 800 --title "binary-tweaks" --column "tweaks" --column=:IMG \
-"layouts" ~/.local/share/layouts/.icons/tweaks/layout.png \
+mode=$(yad  --list --width 800 --height 800 --title "binary-tweaks" --column "tweaks"  \
+"layouts" \
 "shell themes" \
 "vpn_setup" \
 "cpu microcore setup" \
